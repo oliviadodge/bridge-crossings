@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <CheckBoxPreference
+        android:key="pref_report_checkbox"
+        android:title="@string/pref_report_checkbox_title"
+        android:summary="@string/pref_report_checkbox_summary"
+        android:defaultValue="true"/>
+    <com.app.oliviadodge.bridgecrossings.NumberPickerPreference
+        android:key="pref_report_frequency"
+        android:title="Report Frequency"
+        android:summary="@string/pref_report_frequency_summary"
+        android:defaultValue="10" />
+
+    <Preference
+        android:title="@string/pref_report_sendees_title"
+        android:key="pref_report_sendees"
+        android:summary="@string/pref_report_sendee_summary"
+    />
+
+    <EditTextPreference
+        android:key="pref_report_message"
+        android:title="@string/pref_report_message_title"
+        android:defaultValue="@string/pref_report_message_default"
+        android:summary="@string/pref_report_message_summary"
+        android:selectAllOnFocus="true"
+        android:inputType="textCapSentences"
+        android:capitalize="words"
+        android:maxLines="10"/>
+
+
+
+
+
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+
+</PreferenceScreen>

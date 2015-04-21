@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_item_new_crossing"
+          android:icon="@drawable/ic_menu_add"
+          android:title="@string/new_crossing"
+          app:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menu_item_send_report"
+          android:title="@string/menu_send_report_title"/>
+    <item android:id="@+id/menu_item_load_archive"
+          android:title="@string/menu_load_archive_title"/>
+
+</menu>
