@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.app.oliviadodge.bridgecrossings" >
+=======
+    package="com.app.oliviadodge.bridgecrossings">
+>>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
 
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <application
         android:allowBackup="true"
+<<<<<<< HEAD
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
@@ -24,6 +29,28 @@
         </activity>
         <activity
             android:name=".BridgeCrossingListActivity"
+=======
+        android:icon="@drawable/icon_bridge_crossing"
+        android:label="@string/app_name"
+        android:theme="@style/BridgeCrossingTheme" >
+        <activity
+            android:name="com.app.oliviadodge.bridgecrossings.BridgeCrossingPagerActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateVisible|adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.app.oliviadodge.bridgecrossings.BridgeCrossingListActivity" />
+        </activity>
+        <activity
+            android:name="com.app.oliviadodge.bridgecrossings.ArchivedBridgeCrossingListActivity"
+            android:label="@string/archived_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.app.oliviadodge.bridgecrossings.BridgeCrossingListActivity" />
+        </activity>
+        <activity
+            android:name="com.app.oliviadodge.bridgecrossings.BridgeCrossingListActivity"
+>>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
             android:label="@string/title_activity_bridge_crossing_list" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,12 +59,21 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings"
             android:parentActivityName=".BridgeCrossingListActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.oliviadodge.bridgecrossings.BridgeCrossingListActivity" />
+=======
+            android:name="com.app.oliviadodge.bridgecrossings.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="com.app.oliviadodge.bridgecrossings.BridgeCrossingListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.app.oliviadodge.bridgecrossings.BridgeCrossingListActivity" />
+>>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
         </activity>
     </application>
 

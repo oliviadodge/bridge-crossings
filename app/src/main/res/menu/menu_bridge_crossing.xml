@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:app="http://schemas.android.com/apk/res-auto">
+<<<<<<< HEAD
     <item android:id="@+id/menu_item_new_crime"
+=======
+    <item android:id="@+id/menu_item_new_crossing"
+>>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
           android:icon="@drawable/ic_menu_add"
           android:title="@string/new_crossing"
           app:showAsAction="ifRoom|withText"/>
     <item android:id="@+id/menu_item_send_report"
+<<<<<<< HEAD
           android:icon="@drawable/ic_menu_add"
           android:title="Send Report"
           app:showAsAction="ifRoom|withText"/>
     <item android:id="@+id/menu_item_load_archive"
           android:icon="@drawable/ic_menu_archive"
+=======
+          android:title="@string/menu_send_report_title"/>
+    <item android:id="@+id/menu_item_load_archive"
+>>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
           android:title="@string/menu_load_archive_title"/>
 
 </menu>

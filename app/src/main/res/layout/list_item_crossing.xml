@@ -15,7 +15,13 @@
         android:id="@+id/list_item_title"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
+<<<<<<< HEAD
         android:layout_alignParentStart="true"/>
+=======
+        android:layout_alignParentStart="true"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+>>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
 
     <TextView
         android:layout_width="wrap_content"

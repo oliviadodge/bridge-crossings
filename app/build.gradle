@@ -11,10 +11,25 @@ android {
         versionCode 1
         versionName "1.0"
     }
+<<<<<<< HEAD
+=======
+    signingConfigs {
+        release {
+            storeFile file("myreleasekey.keystore")
+            storePassword "password"
+            keyAlias "MyReleaseKey"
+            keyPassword "password"
+        }
+    }
+>>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+<<<<<<< HEAD
+=======
+            signingConfig signingConfigs.release
+>>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
         }
     }
 }

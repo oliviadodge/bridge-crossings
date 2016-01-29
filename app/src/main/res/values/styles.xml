@@ -1,8 +1,53 @@
 <resources>
 
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
 
+=======
+    <!-- the theme applied to the application or activity -->
+    <style name="BridgeCrossingTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Action bar -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+
+
+        <!-- EditText style -->
+        <item name="android:editTextStyle">@style/edit_text</item>
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="colorControlActivated">#ff6388b7</item>
+        <item name="colorControlHighlight">#ff6388b7</item>
+
+
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#ff981105</item>
+
+        <item name="background">@drawable/actionbar_background</item>
+    </style>
+
+        <!-- Date Button Style -->
+    <style name="date_button">
+        <item name="android:background">@drawable/date_button_shape</item>
+        <item name="android:textColor">@drawable/date_button_text_color</item>
+    </style>
+    <style name="title_button">
+        <item name="android:background">@drawable/title_button_shape</item>
+        <item name="android:textColor">@drawable/date_button_text_color</item>
+    </style>
+
+    <style name="edit_text" parent="Widget.AppCompat.EditText">
+        <item name="android:textColorHighlight">#ffb0c4cc</item>
+    </style>
+
+
+
+
+
+>>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
 </resources>

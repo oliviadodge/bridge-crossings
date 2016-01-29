@@ -1,6 +1,10 @@
 package com.app.oliviadodge.bridgecrossings;
 
 import android.app.Activity;
+<<<<<<< HEAD
+=======
+import android.content.Context;
+>>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -11,6 +15,10 @@ import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
+=======
+import android.view.inputmethod.InputMethodManager;
+>>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
 import android.widget.Button;
 import android.widget.EditText;
 

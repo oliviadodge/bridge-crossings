@@ -1,11 +1,19 @@
 package com.app.oliviadodge.bridgecrossings;
 
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.support.v4.app.Fragment;
+=======
+>>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
+<<<<<<< HEAD
+=======
+import android.support.v4.app.Fragment;
+
+>>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
 
 import java.util.ArrayList;
 import java.util.UUID;
