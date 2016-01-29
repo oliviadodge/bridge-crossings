@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="bridge_string_array">
+        <item
+            >Richmond-San Rafael</item>
+        <item
+            >Golden Gate</item>
+        <item
+            >Bay Bridge</item>
+        <item
+            >Carquinez</item>
+        <item
+            >Dumbarton</item>
+        <item
+            >Antioch</item>
+        <item
+            >San Mateo-Hayward</item>
+        <item
+            >Benicia-Martinez</item>
+
+    </string-array>
+</resources>
