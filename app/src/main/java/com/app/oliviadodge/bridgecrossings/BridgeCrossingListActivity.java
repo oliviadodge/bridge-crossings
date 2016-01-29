@@ -1,24 +1,16 @@
 package com.app.oliviadodge.bridgecrossings;
 
 import android.content.Intent;
-<<<<<<< HEAD
 import android.os.Bundle;
-=======
->>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
+
 import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
-<<<<<<< HEAD
 import android.view.Menu;
 import android.view.MenuItem;
 
-=======
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
->>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
 import java.util.UUID;
 
 
@@ -27,11 +19,8 @@ public class BridgeCrossingListActivity extends ActionBarActivity implements Bri
     public static final String TAG = "BridgeCrossingListActivity";
 
     protected int getLayoutResId(){
-<<<<<<< HEAD
-        return R.layout.activity_bridge_crossing_list;
-=======
+
         return R.layout.activity_masterdetail;
->>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
     }
 
     @Override

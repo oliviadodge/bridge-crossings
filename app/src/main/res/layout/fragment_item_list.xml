@@ -3,11 +3,8 @@
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-<<<<<<< HEAD
-             tools:context="com.example.oliviadodge.bridgecrossings.BridgeCrossingListFragment">
-=======
+
              tools:context="com.app.oliviadodge.bridgecrossings.BridgeCrossingListFragment">
->>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
 
     <ListView
         android:id="@android:id/list"

@@ -10,11 +10,6 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
 
-<<<<<<< HEAD
-=======
-import java.io.IOException;
-
->>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
 /**
  * Created by oliviadodge on 3/17/2015.
  */

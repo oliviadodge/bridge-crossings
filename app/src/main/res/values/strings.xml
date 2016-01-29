@@ -4,15 +4,6 @@
     <string name="app_name">Bridge Crossings</string>
     <string name="archived_name">Archived Bridge Crossings</string>
     <string name="action_settings">Settings</string>
-<<<<<<< HEAD
-    <string name="initial_crossing_title">Richmond Bridge Crossing</string>
-    <string name="crossing_title">Bridge Crossed:</string>
-    <string name="students_visited_title">Students: </string>
-    <string name="date_picker_title">Date of Bridge Crossing:</string>
-    <string name="add_crossing_button">Click to add bridge crossing</string>
-    <string name="title_activity_bridge_crossing_list">Bridge Crossings</string>
-    <string name="new_crossing">Add Bridge Crossing</string>
-=======
 
     <!-- BridgeCrossingFragment -->
     <string name="initial_crossing_title">Richmond-San Rafael</string>
@@ -27,15 +18,11 @@
     <string name="new_crossing">Add Bridge Crossing</string>
 
     <!-- Contextual Menu -->
->>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
     <string name="delete_crossing">Delete</string>
 
     <!-- Menu -->
     <string name="menu_load_archive_title">View Archived Items</string>
-<<<<<<< HEAD
-=======
     <string name="menu_send_report_title">Send Report</string>
->>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
     <string name="menu_clear_archive_title">Clear Archived Items</string>
 
 
@@ -43,13 +30,9 @@
     <string name="title_activity_settings">Settings</string>
     <string name="title_activity_preference">PreferenceActivity</string>
     <string name="pref_report_message_title">Bridge Crossings Report Message Content</string>
-<<<<<<< HEAD
-    <string name="pref_report_message_default">Hi Meghan, \n\nPlease see below for the days I crossed the bridge :)
-        Thank you so much! \n\n -Olivia %1$s</string>
-=======
+
     <string name="pref_report_message_default">Hello, \n\nPlease see below for the days I crossed the bridge.
         Thank you so much! \n\n -Your Name</string>
->>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
     <string name="pref_report_message_summary">Edit the default message that will be sent along with your bridge crossings</string>
     <string name="pref_report_frequency_summary">Set the number of times to pay
         the bridge toll before reporting for reimbursement. Currently set at %1$s.</string>
@@ -64,27 +47,17 @@
     <!--Dialogs -->
     <string name="dialog_send_report">Are you ready to send your bridge crossing report for toll reimbursement?</string>
     <string name="dialog_send_report_positive_button">OK</string>
-<<<<<<< HEAD
-    <string name="dialog_send_report_negative_button">No, I\'ll send the report when I\'m ready</string>
     <string name="dialog_send_report_neutral_button">Remind me again later</string>
-    <string name="bridge_picker_fragment_dialog_title">Select Bridge Crossed</string>
 
 
-    <string name="crossing_report_subject">List of Bridge Crossings for Toll Reimbursement</string>
 
     <!--Toasts-->
     <string name="toast_crossings_archived">Bridge crossings cleared and archived.</string>
     <string name="toast_null_report_warning">No new data to send.</string>
     <string name="toast_pref_changed_message">Preference changed.</string>
-=======
     <string name="dialog_send_report_negative_button">Cancel</string>
     <string name="crossing_report_subject">List of Bridge Crossings for Toll Reimbursement</string>
     <string name="bridge_picker_fragment_dialog_title">Bridge Crossed</string>
 
-    <!--Toasts-->
-    <string name="toast_crossings_archived">Bridge crossings cleared and archived.</string>
-    <string name="toast_null_report_warning">No data to send!</string>
-    <string name="toast_pref_changed_message">Send report preference changed to manual. Reset to automatic in Settings menu.</string>
->>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
 
 </resources>

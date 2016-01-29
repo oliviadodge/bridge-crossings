@@ -24,10 +24,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.UUID;
@@ -213,11 +209,8 @@ public class BridgeCrossingListFragment extends Fragment implements AbsListView.
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
-<<<<<<< HEAD
-            case R.id.menu_item_new_crime:
-=======
+
             case R.id.menu_item_new_crossing:
->>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
                 BridgeCrossing c = new BridgeCrossing();
                 BridgeCrossingsLab.get(getActivity()).addCrossing(c);
                 mAdapter.notifyDataSetChanged();

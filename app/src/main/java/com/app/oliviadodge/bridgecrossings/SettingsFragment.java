@@ -1,9 +1,5 @@
 package com.app.oliviadodge.bridgecrossings;
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -16,10 +12,6 @@ import android.preference.PreferenceManager;
 import android.provider.ContactsContract;
 import android.widget.Toast;
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
 public class SettingsFragment extends PreferenceFragment {
 
     public static final int REQUEST_CONTACT = 0;

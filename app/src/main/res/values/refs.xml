@@ -7,10 +7,8 @@
     For more on layout aliases, see:
     http://developer.android.com/training/multiscreen/screensizes.html#TaskUseAliasFilters
     -->
-<<<<<<< HEAD
-=======
+
     <item name="activity_masterdetail" type="layout">@layout/activity_bridge_crossing_list</item>
->>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
     <item name="fragment_item" type="layout">@layout/fragment_item_list</item>
 
 </resources>

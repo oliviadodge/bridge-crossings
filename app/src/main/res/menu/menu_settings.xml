@@ -1,11 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools"
-<<<<<<< HEAD
-      tools:context="com.example.oliviadodge.bridgecrossings.SettingsActivity">
-=======
       tools:context="com.app.oliviadodge.bridgecrossings.SettingsActivity">
->>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
     <item android:id="@+id/action_settings"
           android:title="@string/action_settings"
           android:orderInCategory="100"

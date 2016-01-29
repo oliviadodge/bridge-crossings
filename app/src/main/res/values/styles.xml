@@ -1,14 +1,7 @@
 <resources>
 
-    <!-- Base application theme. -->
-<<<<<<< HEAD
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-    </style>
-
-=======
     <!-- the theme applied to the application or activity -->
-    <style name="BridgeCrossingTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
 
         <!-- Action bar -->
         <item name="android:actionBarStyle">@style/MyActionBar</item>
@@ -46,8 +39,4 @@
     </style>
 
 
-
-
-
->>>>>>> 88fc7e1a70a9a09c84f6bdd8654bcf251a655332
 </resources>
